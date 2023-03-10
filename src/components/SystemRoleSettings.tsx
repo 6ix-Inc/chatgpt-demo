@@ -49,7 +49,7 @@ export default (props: Props) => {
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="Please copy and paste your press release, or any other information that you would like 6ix AI to hold in its memory."
               autocomplete="off"
               autofocus
               rows="3"
