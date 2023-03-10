@@ -25,7 +25,7 @@ export default (props: Props) => {
           <div class="text-slate">
             <div class="flex items-center gap-1 op-60 text-slate">
               <IconEnv />
-              <span>System Role:</span>
+              <span>Press Release:</span>
             </div>
             <div class="mt-1">
               { props.currentSystemRoleSettings() }
