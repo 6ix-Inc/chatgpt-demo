@@ -35,7 +35,7 @@ export default (props: Props) => {
         <Show when={!props.currentSystemRoleSettings() && props.canEdit()}>
           <span onClick={() => props.setSystemRoleEditing(!props.systemRoleEditing())} class="inline-flex items-center justify-center gap-1 text-sm text-slate bg-slate/20 px-2 py-1 rounded-md transition-colors cursor-pointer hover:bg-slate/50">
             <IconEnv />
-            <span>Upload Your Press Release</span>
+            <span>Upload Query Documentation</span>
           </span>
         </Show>
       </Show>
@@ -45,7 +45,7 @@ export default (props: Props) => {
             <IconEnv />
             <span>Press Release:</span>
           </div>
-          <p class="my-2 leading-normal text-slate text-sm op-60">Please copy & paste the text content of your press release.</p>
+          <p class="my-2 leading-normal text-slate text-sm op-60">Please copy & paste the text content of your documentation.</p>
           <div>
             <textarea
               ref={systemInputRef!}
